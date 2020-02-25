@@ -6,4 +6,29 @@
 
 /*----------Navigation-top------*/
 
+.container{
+    background-color: lightgrey;    
+}
+
+.nav-top{
+    background-color: aqua;
+}
+.article{
+    background-color: pink;
+}
+.recomendations{
+    background-color: blueviolet;
+}
+
+.rubrics {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: crimson;
+}
+
+.nav-bottom{
+    background-color: aqua;
+}
 
