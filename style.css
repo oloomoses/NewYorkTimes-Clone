@@ -171,7 +171,7 @@
     /*second-grid-embeded*/
     display: grid;
     grid-template-columns: 2;
-    grid-template-rows: 5;
+    grid-template-rows: 44px auto 66px ;
 }
 
 .rubrics-logo {
@@ -183,9 +183,9 @@
 
 .rubrics-container {
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
     grid-row-start: 2;
-    grid-row-end: 5;
+    grid-row-end: 3;
 }
 
 .rubrics-go-home {
@@ -195,32 +195,11 @@
     grid-row-end: 2;
 }
 
-.rubrics-subscription {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-.rubrics-newsletter {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-
-.rubrics-languages {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-}
-
 .footer-container > footer {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
 
 
