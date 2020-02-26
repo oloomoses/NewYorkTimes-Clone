@@ -5,9 +5,20 @@
 }
 
 /*----------Navigation-top------*/
+body {
+    display: grid;
+    grid-template-columns: 42px auto 42px;
+}
 
 .container{
-    background-color: rgb(112, 104, 104);    
+    background-color: rgb(68, 96, 173);
+    position: absolute;
+    top:42px;
+    left: 0;
+    right: 0;
+    bottom: 42px;
+    z-index: -1;
+      
 }
 
 .nav-top{
@@ -18,6 +29,7 @@
     height: 36px;
     width: 100%;
     padding: 4px 15px;
+    border: 2px;
 }
 .article{
     background-color: pink;
