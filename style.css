@@ -6,6 +6,21 @@
 
 /*----------Navigation-top------*/
 
+.nav-top{
+    background-color: aqua;
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 36px;
+    width: 100%;
+    padding: 4px 15px;
+}
+
+.nav-logo img{
+    height:50px;
+
+}
+
 .container{
     background-color: rgb(68, 96, 173);
     position: absolute;
@@ -17,25 +32,14 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
       
 }
 
-.nav-top{
-    background-color: aqua;
-    position: fixed;
-    top:0;
-    left: 0;
-    height: 36px;
-    width: 100%;
-    padding: 4px 15px;
-    border: 2px;
-}
-.article{
+
+.article{ 
     background-color: pink;
-    position: absolute;
-    top:0;
-    left:0;
-    right: 0;
+    height:100%;    
 }
 .recomendations{
     background-color: blueviolet;
