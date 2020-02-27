@@ -201,14 +201,9 @@
     text-decoration: none;    
 }
 
-.nyt-logo-footer {
-    position: relative;
-}
-
-.nyt-logo-footer > img {
+.nyt-logo-footer > a > img {
     height: 44px;
-    position: absolute;
-    top: -18px;
+    padding-bottom: 5px;
 
 }
 
