@@ -212,6 +212,38 @@
     display: flex;
     flex-direction: row;
 }
+.rubrics-container p{
+    color:#333;
+    font-size:13px;
+    font-weight:700;
+    font-family:nyt-franklin;
+    text-transform: uppercase;
+    height:25px;
+    line-height:15px;
+    width:150px;
+    margin:0;
+}
+
+ul li{
+    list-style: none;
+    margin-top:5px;    
+}
+ul li a{
+    text-decoration:none;
+    color:#000;
+    font-family: nyt-franklin; 
+    display: inline-block;
+    width:150px;
+    font-size:14px;
+    font-weight:500;
+    height:23px;
+    line-height:16px;
+
+}
+ul li a:hover{
+    text-decoration:underline;
+}
+
 
 
 /*-----------Navigation-bar-at-the-bottom----------*/
