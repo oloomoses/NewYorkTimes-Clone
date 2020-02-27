@@ -166,6 +166,7 @@
 }
 
 .footer-container {
+    background-color: rgb(68, 96, 173);
     grid-column-start: 2;
     grid-column-end: 3;
     /*second-grid-embeded*/
@@ -175,6 +176,7 @@
 }
 
 .rubrics-logo {
+    background-color: seagreen;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -182,6 +184,7 @@
 }
 
 .rubrics-container {
+    background-color: springgreen;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -189,6 +192,7 @@
 }
 
 .rubrics-go-home {
+    background-color: tomato;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -196,6 +200,7 @@
 }
 
 .footer-container > footer {
+    background-color: violet;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
