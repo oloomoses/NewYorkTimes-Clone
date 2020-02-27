@@ -214,10 +214,11 @@
 
 
 
-.footer-container > footer {
-    background-color: violet;
+.footer-container > footer {    
+    background-color: white;
     grid-row-start: 3;
     grid-row-end: 4;
+    /* margin-top: 1px solid black; */
 }
 
 /*rubrics-container*/
@@ -240,6 +241,28 @@
     line-height:15px;
     /*width:150px;*/
     margin:0;
+}
+
+.rb-footer ul {
+    border-top: 1px solid #ebebeb;
+    margin-top: 10px;    
+    text-align: center;
+}
+
+.rb-footer ul li{
+    display: inline-block;
+    margin-top:15px;
+    margin-right:20px;
+    text-align:left;
+    list-style:none;
+    
+    
+}
+
+.rb-footer ul li a{
+    font-size:9px;
+    text-align:center;
+    color:#333;
 }
 
 .newsletters {
