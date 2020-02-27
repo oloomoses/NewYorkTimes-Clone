@@ -152,7 +152,7 @@
     height:100%;    
 }
 .recomendations{
-    background-color: blueviolet;
+    background-color: white;
     z-index: 1;
 }
 
@@ -160,23 +160,25 @@
 /*----------The-Footer-Rubrics-----------------------------*/
 
 .footer-rubrics {
-    background-color: burlywood;
+    background-color: white;
     /*first-grid*/
     display: grid;
     grid-template-columns: 1fr auto 1fr ;
 }
 
 .footer-container {
-    background-color: rgb(68, 96, 173);
+    background-color: transparent;
     grid-column-start: 2;
     grid-column-end: 3;
     /*second-grid-embeded*/
     display: grid;
     grid-template-rows: 44px auto 66px ;
+    border-top: 2px double #e2e2e2;
+    padding-top: 5px;
 }
 
 .rubrics-logo {
-    background-color: white;
+    background-color: transparent;
     grid-row-start: 1;
     grid-row-end: 2;
     height: 44px;
@@ -199,7 +201,7 @@
 }
 
 .rubrics-go-home > a {
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .nyt-logo-footer {
@@ -213,6 +215,7 @@
    box-sizing: border-box;
    display: block;
    position: relative;
+   overflow: hidden;
 
 }
 
@@ -220,19 +223,11 @@
     max-width: 100%;
     max-height: 100%;
     position: absolute;
-    bottom: 20px;
+    bottom: 15px;
     left: 0;
-}
+    }
 
-.rubrics-container {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    height: 350px;
-}
-
-
-
-.footer-container > footer {    
+.footer-container > footer {
     background-color: white;
     grid-row-start: 3;
     grid-row-end: 4;
@@ -241,11 +236,15 @@
 
 /*rubrics-container*/
 .rubrics-container {
+    grid-row-start: 2;
+    grid-row-end: 3;
     background-color: white;
     display: flex;
     flex-direction: row;
     min-width: 1100px;
     max-width: 1200px;
+    height: 350px;
+    margin-top: 10px;
     align-content: space-between;
     justify-content: space-between;
 }
@@ -257,7 +256,6 @@
     text-transform: uppercase;
     height:25px;
     line-height:15px;
-    /*width:150px;*/
     margin:0;
 }
 .subscribe li a{
