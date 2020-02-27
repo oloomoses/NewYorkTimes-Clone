@@ -176,12 +176,26 @@
 }
 
 .rubrics-logo {
-    background-color: seagreen;
+    background-color: white;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    height: 44px;
+    align-content: space-between;
+    box-sizing: border-box;
+    height: 100%;
 }
+
+.rubrics-logo > a {
+    background-color: white;
+}
+
+.rubrics-logo > a >img {
+    height: 44px; 
+    z-index: 1; 
+}
+
 
 .rubrics-container {
 
@@ -192,11 +206,18 @@
 }
 
 .rubrics-go-home {
-    background-color: tomato;
+    background-color: white;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    color: rgb(86, 123, 149);
+    font-size: 11px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 400;
+    text-decoration: solid;
+    font-style: normal;
+    justify-self: end;
 }
 
 .footer-container > footer {
@@ -212,7 +233,6 @@
     background-color: white;
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
     min-width: 600px;
     max-width: 1200px;
     align-content: space-between;
@@ -230,6 +250,10 @@
     margin:0;
 }
 
+.newsletters {
+    font-size:11px !important;
+    line-height:21px !important;
+}
 
 ul li{
     list-style: none;
