@@ -2,9 +2,11 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 /*-----------------Navigation-top------------*/
+
 
 .nav-top{
     background-color: white;
@@ -27,13 +29,6 @@
     line-height: 16px;
 }
 
-/* @media screen and (min-width: 600px) {
-    .nav-top {
-        padding-left: minmax(1px,54px);
-        padding-right: minmax(1px,54px);
-        margin : auto;
-    }
-}*/
 
 .nav-logo {
  height: 100%;
@@ -135,27 +130,27 @@
 
 .container{
     background-color: rgb(68, 96, 173);
-    position: absolute;
+    /* position: absolute;
     top:42px;
     left: 0;
     right: 0;
     bottom: 42px;
-    z-index: -1;
+    z-index: -1; */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;     
 }
 
 
-.article{ 
+/* .article{ 
     background-color: pink;
     height:100%; 
     display: flex;
     flex-direction: column;  
-}
+} */
 .recomendations{
-    background-color: white;
-    z-index: 1;
+    display:grid;
+    grid-template-rows: 1 1 1;
 }
 
 
