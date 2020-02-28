@@ -48,15 +48,7 @@ body {
     background-color: rgb(68, 96, 173);
 }
 
-.recomendations{
-    /*position-in-the-body-grid*/
-    grid-row-start: 3;
-    grid-row-end: 4;
-     /*styling-inside-recomendation*/
-    display:grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-}
+
 
 .footer-rubrics {
     /*position-in-the-body-grid*/
@@ -188,7 +180,15 @@ body {
 
 /*----------The-story-container-----------*/
 
-
+.recomendations{
+    /*position-in-the-body-grid*/
+    grid-row-start: 3;
+    grid-row-end: 4;
+     /*styling-inside-recomendation*/
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
 
 /*-----------recomendations-children----------*/
 
@@ -197,6 +197,12 @@ body {
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
+    background-color: darkgoldenrod;
+
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 30px 30px;
     
 }
 .popular {
@@ -204,12 +210,25 @@ body {
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
+    background-color: darkgray;
 }
 .edit-picks{
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 2;
+    background-color: darksalmon;
+
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+.img-thumbnail{
+    width: 231px;
+    height: 310px;
+}
+.img-thumbnail img{
+    width:230px;
+    height:154px;
 }
 
 /*----------The-Footer-Rubrics-----------------------------*/
