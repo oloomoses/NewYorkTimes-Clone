@@ -49,12 +49,28 @@ body {
 }
 
 .recomendations{
-    /*position-in-the-body-grid*/
-    grid-row-start: 3;
-    grid-row-end: 4;
-    /*styling-inside-container*/
     display:grid;
-    grid-template-rows: 1 1 1;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.thumbnail{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+.popular {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.edit-picks{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 .footer-rubrics {
