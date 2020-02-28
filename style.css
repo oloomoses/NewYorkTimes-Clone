@@ -220,7 +220,7 @@ body {
     grid-row-end: 4;
      /*styling-inside-recomendation*/
     display:grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 80% auto;
     grid-template-rows: auto auto;
 }
 
@@ -234,7 +234,7 @@ body {
     display:grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-    grid-gap: 30px 30px;
+   
     
 }
 .popular {
@@ -243,6 +243,9 @@ body {
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: darkgray;
+
+    display: flex;
+    flex-direction: column;
 }
 .edit-picks{
     grid-row-start: 2;
