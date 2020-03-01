@@ -234,9 +234,35 @@ body {
     margin-left: auto;
 }
 
-#inflation {
-    height: 752px;
-    width: 100%;
+/*image-text-inflation*/
+
+.img-inflation-container {
+    position: relative;
+    overflow: hidden;
+    width: 945px;
+    height: 576px;
+    background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
+    background-repeat: no-repeat;
+    background-size: 945px 576px;
+}
+
+/*#inflation-img {
+    height: 576px;
+    width: 945px;
+    display: block;
+}*/
+
+.img-inflation-container > p {
+    position: absolute;
+    display: block;
+    margin: 0;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    width: 228px;
+    top: 24.8264%;
+    left: 25.5619%;
 }
 
 /*-----------recomendations-children----------*/
