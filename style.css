@@ -369,6 +369,10 @@ body {
     font-weight:500;
     line-height: 1.375rem;
 }
+
+.popular-articles a:hover{
+    color: #999999;
+}
 .edit-picks{
     grid-row-start: 2;
     grid-row-end: 3;
