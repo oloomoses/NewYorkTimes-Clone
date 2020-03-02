@@ -300,11 +300,23 @@ body {
     grid-column-end: 2;
     background-color: darkgoldenrod;
 
-    display:grid;
+    display: flex;
+    flex-direction: column;;
+
+    /* display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto; */  
+}
+
+.recomendations-header{
+    padding: 17px 0 0;
+}
+
+.thumbnail-main{
+    display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
-   
-    
+    padding: 15px 0 0;
 }
 .popular {
     grid-row-start: 1;
@@ -316,6 +328,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+.popular-main{
+    padding: 15px 0 0;
+}
 .edit-picks{
     grid-row-start: 2;
     grid-row-end: 3;
@@ -323,9 +338,18 @@ body {
     grid-column-end: 2;
     background-color: darksalmon;
 
-    display:grid;
-    grid-template-columns: auto auto auto;
+    display:flex;
+    flex-direction: column;
+
+    /* display:grid;
+    grid-template-columns: auto auto auto; */
 }
+.edit-pics-main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding:15px 0 0;
+}
+
 .img-thumbnail{
     width: 231px;
     height: 310px;
