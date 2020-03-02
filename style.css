@@ -178,16 +178,15 @@ body {
 
 /*----------The-story-container-----------*/
 
-.story-container > div {
-    margin-left: auto;
-    margin-right: auto;
-}
+/*main-title*/
 
 .main-title {
     width: 24.521vw;
     height: 10.7986vh;
     margin-bottom: 0.8vh;
     margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-title > span {
@@ -199,6 +198,8 @@ body {
     font-family:  nyt-cheltenham,georgia,'times new roman',times,serif;
 }
 
+/*main-img*/
+
 .main-img {
     width: 70vw;
     height: fit-content;
@@ -206,6 +207,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-img > a > img {
@@ -213,7 +216,54 @@ body {
     height: auto;
     margin-right: auto;
     margin-left: auto;
+}
 
+.main-img > p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: rgb(102,102,102);
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+    font-weight: 400;
+}
+
+.main-img > p > span {
+    color: rgb(136,136,136) !important;
+    font-size: 0.9rem !important;
+}
+
+/*article-header*/
+
+.article-header {
+    width: 35.21vw;
+    height: fit-content;
+    margin-bottom: 2.25vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.author {
+    color: rgb(51,51,51);
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    margin-bottom: 1.687vh;
+}
+.author > a {
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(204,204,204);
+    text-decoration-style: solid;
+    cursor: pointer;
+    color: rgb(51,51,51);
+}
+
+.date-socialmedia{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: baseline;
+ height: 3.937vh;
 }
 
 .image-story{
@@ -222,19 +272,6 @@ body {
     align-self: center;
 }
 
-.main-img > p {
-    font-size: 12px;
-    color: #333;
-}
-
-.article-header {
-    width: 600px;
-    height: fit-content;
-    margin-bottom: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-}
 
 .story {
     width: 33vw;
