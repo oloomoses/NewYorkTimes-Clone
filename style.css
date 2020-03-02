@@ -287,28 +287,71 @@ body {
     height: 1.8rem;
     margin-left: 1rem;
     text-decoration: none;
+    align-content: center;
+    
+}
+
+.circle {
     background-color: rgb(238, 238, 238);
     border-radius: 50%;
 }
 
 .head-icon > a > i {
-    font-size: 14rem;
+    font-size: 1.3rem;
     color: black;
+    font-weight: 400;
 }
-
-.image-story{
-    width: 70vw;
-    height: auto;
-    align-self: center;
-}
-
 
 .story {
-    width: 33vw;
+    width: 35.21vw;
     height: fit-content;
     margin-right: auto;
     margin-left: auto;
 }
+
+.story > p {
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    color: rgb(51,51,51);
+    margin-bottom: 0.9375rem;
+}
+/*unlock-free-articles*/
+
+.unlock-free-articles {
+    margin-right: auto;
+    margin-left: auto;
+    width: 35.21vw;
+    margin-top: 2.812vh;
+    margin-bottom: 2.812vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+}
+.unlock-free-articles > a {
+    text-decoration: none;
+    color: rgb(50, 104, 145);
+ }
+
+ .empty-border {
+     width: 4.2253vw;
+     border-bottom-color: rgb(204, 204, 204);
+     border-bottom-width: 1px;
+     height: 0;
+     border-bottom-style:solid;
+ }
+
+ .at-top {
+    margin-bottom: 1.1875rem;
+ }
+
+ .at-bottom {
+    margin-top: 1.1875rem;
+ }
 
 /*image-text-inflation*/
 
@@ -363,6 +406,15 @@ body {
     font-size: 0.68rem;
     font-weight: bold;
 }
+
+/*img-story*/
+
+.image-story{
+    width: 70vw;
+    height: auto;
+    align-self: center;
+}
+
 
 /*-----------recomendations-children----------*/
 
