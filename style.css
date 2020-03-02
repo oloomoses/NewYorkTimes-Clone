@@ -300,6 +300,8 @@ body {
 /*-----------recomendations-children----------*/
 
 .recomendations{
+    width:70vw;
+    height:auto;
     /*position-in-the-body-grid*/
     grid-row-start: 3;
     grid-row-end: 4;
@@ -307,6 +309,8 @@ body {
     display:grid;
     grid-template-columns: 80% auto;
     grid-template-rows: auto auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .thumbnail{
@@ -317,7 +321,8 @@ body {
     background-color: darkgoldenrod;
 
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
+    border-top:1px solid black;
 
     /* display:grid;
     grid-template-columns: auto auto auto;
@@ -354,9 +359,12 @@ body {
 
     display: flex;
     flex-direction: column;
+    border-top:1px solid black;
+    margin-left:30px;
+    padding-left:15px;
 }
 .popular-main{
-    padding: 15px 0 0;
+    padding: 15px 0 0;    
 }
 .popular-articles{
     padding: 15px 0;
@@ -365,7 +373,7 @@ body {
     color: rgb(18, 18, 18);
     text-decoration: none;
     font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-    font-size:1.375rem;
+    font-size:1.125rem;
     font-weight:500;
     line-height: 1.375rem;
 }
@@ -382,6 +390,7 @@ body {
 
     display:flex;
     flex-direction: column;
+    border-top:1px solid black;
 
     /* display:grid;
     grid-template-columns: auto auto auto; */
@@ -393,8 +402,9 @@ body {
 }
 
 .img-thumbnail{
-    width: 231px;
+    width: auto;
     height: 310px;
+    padding-bottom: 15px;
 }
 .img-thumbnail a{
     text-decoration: none;
@@ -406,7 +416,7 @@ body {
 }
 
 .img-thumbnail img{
-    width:230px;
+    width:auto;
     height:154px;
 }
 .img-thumbnail figcaption{
