@@ -259,11 +259,40 @@ body {
 }
 
 .date-socialmedia{
+ height: 3.937vh;
+ margin-left: auto;
+ margin-right: auto;
  display: flex;
- flex-direction: column;
  justify-content: space-between;
  align-items: baseline;
- height: 3.937vh;
+}
+
+.date {
+    font-size: 0.8125rem;
+    font-family:nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 500;
+    color: rgb(153,153,153);
+}
+
+.socialmedia-toolbar {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    list-style: none;
+    align-items: center;
+}
+
+.head-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+}
+
+.head-icon > a > i {
+    z-index: 1;
 }
 
 .image-story{
