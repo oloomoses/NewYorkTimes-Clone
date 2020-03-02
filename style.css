@@ -352,6 +352,41 @@ body {
  .at-bottom {
     margin-top: 1.1875rem;
  }
+/*aside-edit-picks*/
+
+.aside-edit-picks {
+    width: 12.3239vw;
+    height: 36.4454vh;
+    display: block;
+}
+.picks > p {
+    height: 3.03712vh ;
+}
+
+.picks > a {
+    text-decoration: none;
+    height: 8.886vh;
+    margin-bottom: 0.9375rem;
+}
+
+.picks > img {
+    width: 4.8125rem;
+    height: 4.8125rem;
+    float: left;
+}
+
+.picks > a > p {
+    color:rgb(51, 51, 51);
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    line-height: 1.0625rem;
+    margin-left: 0.625rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    text-decoration: none;
+}
+
 
 /*image-text-inflation*/
 
