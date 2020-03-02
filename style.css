@@ -184,10 +184,12 @@ body {
 
 .story-container > div {
     place-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-title {
-    max-width: 600px;
+    width: 70vw;
     height: 96px;
     margin-top: 0;
     margin-bottom: 16px;
@@ -196,7 +198,7 @@ body {
 }
 
 .main-img {
-    max-width: 600px;
+    width: 70vw;
     height: fit-content;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -208,13 +210,16 @@ body {
 }
 
 .main-img > a > img {
-    max-width: 600px;
-    max-height: 678px;
+    width: 70vw;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .image-story{
-    width: auto;
-    height: 300px;
+    width: 70vw;
+    height: auto;
     align-self: center;
 }
 
@@ -233,7 +238,7 @@ body {
 }
 
 .story {
-    max-width: 600px;
+    width: 33vw;
     height: fit-content;
     margin-right: auto;
     margin-left: auto;
@@ -241,21 +246,36 @@ body {
 
 /*image-text-inflation*/
 
-.img-inflation-container {
-    overflow: hidden;
-    width: 948px;
-    height: 576px;
-    background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
-    background-repeat: no-repeat;
-    background-size: 945px 576px;
-    display: block;
+.image-text-inflation {
+    margin-right: auto;
+    margin-left: auto;
+    width:  70vw;
+    height: fit-content;
+}
+.image-text-inflation > p {
+    font-size: 0.8rem;
+    font-style: normal;
+    color: rgb(102,102,102);
+    line-height: 1.2rem;
+}
+.image-text-inflation > h3 {
+    font-size: 1.25rem;
+    font-style: normal;
+    color: black;
+    line-height: 1.5rem;
 }
 
-/*#inflation-img {
-    height: 576px;
-    width: 945px;
+.img-inflation-container {
+    overflow: hidden;
+    width:  70vw;
+    height: 64.79vh;
+    background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
+    background-repeat: no-repeat;
+    background-size: 70vw 64.79vh;
     display: block;
-}*/
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .img-inflation-container > p {
     display: block;
@@ -267,8 +287,6 @@ body {
     color: black;
     width: 225px;
     float: left;
-    /*top: 24.8264%;
-    left: 25.5619%;*/
     margin-top: 150px;
     margin-right: 11px;
 }
