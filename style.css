@@ -311,6 +311,7 @@ body {
     grid-template-rows: auto auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 
 .thumbnail{
@@ -318,7 +319,7 @@ body {
     grid-row-end: 2; */
     /* grid-column-start: 1;
     grid-column-end: 2; */
-    background-color: darkgoldenrod;
+    /* background-color: darkgoldenrod; */
 
     display: flex;
     flex-direction: column;
@@ -356,7 +357,7 @@ body {
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
-    background-color: darkgray;
+    /* background-color: darkgray; */
 
     display: flex;
     flex-direction: column;
@@ -387,7 +388,7 @@ body {
     grid-row-end: 3; */
     /* grid-column-start: 1;
     grid-column-end: 2; */
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
 
     display:flex;
     flex-direction: column;
