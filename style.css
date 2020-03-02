@@ -327,8 +327,15 @@ body {
 .recomendations-header{
     padding: 17px 0 0;
     font-weight:bold;
-    text-decoration:none;
-    columns: #333333;
+    font-size:17px;
+}
+
+.recomendations-header a {
+    text-decoration: none;
+    color: #000000;
+}
+.recomendations-header a:hover{
+    text-decoration: underline;
 }
 
 .thumbnail-main{
@@ -337,6 +344,7 @@ body {
     grid-template-rows: auto auto;
     padding: 15px 0 0;
 }
+
 .popular {
     grid-row-start: 1;
     grid-row-end: 3;
@@ -384,6 +392,15 @@ body {
     width: 231px;
     height: 310px;
 }
+.img-thumbnail a{
+    text-decoration: none;
+    color: black;
+}
+
+.img-thumbnail a:hover{
+    color: #999999;
+}
+
 .img-thumbnail img{
     width:230px;
     height:154px;
