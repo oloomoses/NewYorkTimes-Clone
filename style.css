@@ -249,7 +249,7 @@ body {
 .image-text-inflation {
     margin-right: auto;
     margin-left: auto;
-    width:  70vw;
+    width:  59.886vw;
     height: fit-content;
 }
 .image-text-inflation > p {
@@ -267,11 +267,11 @@ body {
 
 .img-inflation-container {
     overflow: hidden;
-    width:  70vw;
+    width: 59.886vw;
     height: 64.79vh;
     background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
     background-repeat: no-repeat;
-    background-size: 70vw 64.79vh;
+    background-size: 59.886vw 64.79vh;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -279,23 +279,22 @@ body {
 
 .img-inflation-container > p {
     display: block;
-    margin: 0;
-    font-size: 13px;
-    line-height: 17px;
+    font-size: 0.81rem;
+    line-height: 1.0625rem;
     font-weight: 200;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    width: 225px;
+    width: 14.448vw;
     float: left;
-    margin-top: 150px;
-    margin-right: 11px;
+    margin-top: 16.19vh;
+    margin-right: 0.4rem;
 }
 
 .img-inflation-container > p > span {
     float: left;
     display: block;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.68rem;
     font-weight: bold;
 }
 
