@@ -292,7 +292,8 @@ body {
 }
 
 .head-icon > a > i {
-    z-index: 1;
+    font-size: 14rem;
+    color: black;
 }
 
 .image-story{
