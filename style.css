@@ -317,6 +317,29 @@ body {
     color: rgb(51,51,51);
     margin-bottom: 0.9375rem;
 }
+
+/*----story-with-aside-picks---*/
+
+.story-with-aside-picks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.story-aside {
+    width: 35.21vw;
+    margin-left: 32.39528vw !important;
+    margin-right: 0 !important;
+}
+
+.story-aside > p {
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    color: rgb(51,51,51);
+    margin-bottom: 0.9375rem;
+}
 /*unlock-free-articles*/
 
 .unlock-free-articles {
@@ -357,6 +380,7 @@ body {
 .aside-edit-picks {
     width: 12vw;
     height: 36vh;
+    margin-left: 4.401vw;
     float: right !important;
     align-self: right !important;
     display: grid;
