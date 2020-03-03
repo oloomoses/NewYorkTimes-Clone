@@ -52,9 +52,14 @@ body {
 }
 
 .footer-rubrics {
+    width:70vw;
+    height:auto;
     /*position-in-the-body-grid*/
     grid-row-start: 4;
     grid-row-end: 5;
+    margin-left:auto;
+    margin-right:auto;
+
     /*styling-inside-container*/
     background-color: white;
     /*inside-footer-grid*/
@@ -259,12 +264,12 @@ body {
 }
 
 .date-socialmedia{
- height: 3.937vh;
- margin-left: auto;
- margin-right: auto;
- display: flex;
- justify-content: space-between;
- align-items: baseline;
+    height: 3.937vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .date {
@@ -363,23 +368,23 @@ body {
 .unlock-free-articles > a {
     text-decoration: none;
     color: rgb(50, 104, 145);
- }
+}
 
- .empty-border {
-     width: 4.2253vw;
-     border-bottom-color: rgb(204, 204, 204);
-     border-bottom-width: 1px;
-     height: 0;
-     border-bottom-style:solid;
- }
+.empty-border {
+    width: 4.2253vw;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-width: 1px;
+    height: 0;
+    border-bottom-style:solid;
+}
 
- .at-top {
+.at-top {
     margin-bottom: 1.1875rem;
- }
+}
 
- .at-bottom {
+.at-bottom {
     margin-top: 1.1875rem;
- }
+}
 /*aside-edit-picks*/
 
 .aside-edit-picks {
@@ -660,7 +665,7 @@ body {
     /*position-in-the-body-grid*/
     grid-row-start: 3;
     grid-row-end: 4;
-     /*styling-inside-recomendation*/
+    /*styling-inside-recomendation*/
     display:grid;
     grid-template-columns: 70% auto;
     grid-template-rows: auto auto;
@@ -795,7 +800,6 @@ body {
     color: rgb(18, 18, 18);
     font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
     line-height: 1.375rem;
-   
 }
 
 /*----------The-Footer-Rubrics-----------------------------*/
@@ -807,7 +811,7 @@ body {
     /*second-grid-embeded*/
     display: grid;
     grid-template-rows: 44px auto 66px ;
-    border-top: 2px double #e2e2e2;
+    border-top: 3px double #e2e2e2;
     padding-top: 5px;
 }
 
@@ -844,12 +848,12 @@ body {
 }
 
 .nyt-logo-footer > a {
-   width: 100%;
-   height: 100%;
-   box-sizing: border-box;
-   display: block;
-   position: relative;
-   overflow: hidden;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    overflow: hidden;
 
 }
 
@@ -875,8 +879,8 @@ body {
     background-color: white;
     display: flex;
     flex-direction: row;
-    min-width: 1100px;
-    max-width: 1200px;
+    /* min-width: 1100px;
+    max-width: 1200px; */
     height: 350px;
     margin-top: 10px;
     align-content: space-between;
