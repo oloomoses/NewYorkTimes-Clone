@@ -449,11 +449,11 @@ body {
 
 .img-inflation-container {
     overflow: hidden;
-    width: 59.886vw;
-    height: 64.79vh;
+    width: 55.4577vw;
+    height: 64.79188vh;
     background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
     background-repeat: no-repeat;
-    background-size: 59.886vw 64.79vh;
+    background-size: 55.4577vw 64.79188vh;
     display: block;
     margin-right: auto;
     margin-left: auto;
