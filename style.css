@@ -307,6 +307,13 @@ body {
     margin-top: 0.3rem;
 }
 
+.white-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-top: 0.3rem;
+}
+
+/*--stories--*/
 .story {
     width: 35.21vw;
     height: fit-content;
@@ -467,9 +474,9 @@ body {
     font-weight: 200;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    width: 12.448vw;
+    width: 12.455vw;
     float: left;
-    margin-top: 16.19vh;
+    margin-top: 16.7vh;
     margin-right: 1.5rem;
 }
 
@@ -531,7 +538,7 @@ body {
 /*img-story*/
 
 .image-story {
-    width: 70vw;
+    width: min-content;
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -583,13 +590,9 @@ body {
     color: rgb(102, 102, 102);
 }
 
-.archives > span {
+.archives > a {
     text-decoration: underline;
     color: rgb(102, 102, 102);
-}
-
-.archives > span > a {
-    text-decoration: none;
 }
 
 .story-foot-share-buttons {
