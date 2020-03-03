@@ -41,7 +41,6 @@ body {
 }
 
 .story-container {
-
     /*position-in-the-body-grid*/
     grid-row-start: 2;
     grid-row-end: 3;
@@ -54,10 +53,6 @@ body {
 }
 
 .nav-bottom {
-    /*position-in-the-body-grid*/
-    /* grid-row-start: 5;
-    grid-row-end: 6; */
-    /*inside-nav-bottom-styling*/
     background-color: white;
     position: fixed;
     bottom: 0;
@@ -106,7 +101,7 @@ body {
 
 .nav-logo img{
     width:195.03px;
-    height:26.48px;    
+    height:26.48px;
 }
 
 .nav-icons > button > i {
@@ -147,13 +142,10 @@ body {
     margin-right: 20px;
 }
 
-.nav-btn a button {
+.nav-btn button {
     margin-right: 9px;   
-    /* margin-bottom: 20px;  */
-    /* padding: 8px 9px; */
     width: fit-content;
     height: 33px;
-    /* align-items: flex-end; */
     background-color: rgb(86, 123, 149);
     border: 1px solid rgb(50, 104, 145);
     border-radius: 3px;
