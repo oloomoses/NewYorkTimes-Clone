@@ -51,22 +51,6 @@ body {
     align-items: center;
 }
 
-.footer-rubrics {
-    width:70vw;
-    height:auto;
-    /*position-in-the-body-grid*/
-    grid-row-start: 4;
-    grid-row-end: 5;
-    margin-left:auto;
-    margin-right:auto;
-
-    /*styling-inside-container*/
-    background-color: white;
-    /*inside-footer-grid*/
-    display: grid;
-    grid-template-columns: 1fr auto 1fr ;
-}
-
 .nav-bottom {
     /*position-in-the-body-grid*/
     grid-row-start: 5;
@@ -804,6 +788,22 @@ body {
 
 /*----------The-Footer-Rubrics-----------------------------*/
 
+.footer-rubrics {
+    width:70vw;
+    height:auto;
+    /*position-in-the-body-grid*/
+    grid-row-start: 4;
+    grid-row-end: 5;
+    margin-left:auto;
+    margin-right:auto;
+
+    /*styling-inside-container*/
+    background-color: white;
+    /*inside-footer-grid*/
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+
 .footer-container {
     background-color: transparent;
     grid-column-start: 2;
@@ -813,6 +813,7 @@ body {
     grid-template-rows: 44px auto 66px ;
     border-top: 3px double #e2e2e2;
     padding-top: 5px;
+    width:70vw;    
 }
 
 .rubrics-logo {
