@@ -283,12 +283,18 @@ body {
 }
 
 .head-icon {
-    width: 1.9rem;
-    height: 1.9rem;
-    margin-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.8rem;
     text-decoration: none;
-    align-content: center;
-    
+    text-align: center;
+}
+
+.circle :hover {
+    background-color: transparent;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 50%;
+    transition: 0.3s;
 }
 
 .circle {
@@ -299,8 +305,7 @@ body {
 .head-icon > a > img {
     width: 1.4rem;
     height: 1.4rem;
-    margin-right: 0.2rem;
-    margin-left: 0.2rem;
+    margin-top: 0.3rem;
 }
 
 .story {
@@ -603,19 +608,26 @@ body {
 }
 
 .foot-icon {
-    width: 1.8rem;
-    height: 1.8rem;
-    margin-left: 1rem;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.8rem;
     text-decoration: none;
-    align-content: center;
+    text-align: center;
     background-color: rgb(238, 238, 238);
     border-radius: 50%;
 }
 
-.foot-icon > a > i {
-    font-size: 1.3rem;
-    color: black;
-    font-weight: 400;
+.foot-icon > a > img {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-top: 0.3rem;
+}
+
+.foot-icon :hover {
+    background-color: transparent;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 50%;
+    transition: 0.3s;
 }
 
 /*-----------recomendations-children----------*/
