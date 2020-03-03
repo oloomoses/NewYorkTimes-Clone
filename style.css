@@ -535,6 +535,87 @@ body {
     font-size: 0.9rem !important;
 }
 
+/*-story-foot-note-*/
+
+.story-foot-note {
+    display: flex;
+    flex-direction: column;
+    width: 35.21vw;
+    height: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.archives {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgb(102, 102, 102);
+}
+
+.archives > span {
+    text-decoration: underline;
+    color: rgb(102, 102, 102);
+}
+
+.archives > span > a {
+    text-decoration: none;
+}
+
+.story-foot-share-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.story-foot-share-buttons > button {
+    margin-right: 9px;
+    padding: 8px 9px;
+    width: 20vw;
+    height: 2.1rem;
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    border-radius: 3px;
+    color: white;
+    font-style: normal;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.55px;
+    line-height: 11px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 8px 11px;
+}
+
+.foot-note-social-media-tool {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    list-style: none;
+    align-items: center;
+}
+
+.foot-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    align-content: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+}
+
+.foot-icon > a > i {
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 400;
+}
 
 /*-----------recomendations-children----------*/
 
