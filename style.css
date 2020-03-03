@@ -291,10 +291,9 @@ body {
 }
 
 .circle :hover {
-    background-color: transparent;
-    border: 1px solid rgb(238, 238, 238);
+    background-color: white;
+    border: 2px solid rgb(238, 238, 238);
     border-radius: 50%;
-    transition: 0.3s;
 }
 
 .circle {
@@ -431,10 +430,12 @@ body {
 .image-text-inflation {
     margin-right: auto;
     margin-left: auto;
-    width:  59.886vw;
+    width:  55.4577vw;
     height: fit-content;
+    margin-bottom: 1rem;
 }
-.image-text-inflation > p {
+
+.inflation-top-caption {
     font-size: 0.8rem;
     font-style: normal;
     color: rgb(102,102,102);
@@ -466,10 +467,10 @@ body {
     font-weight: 200;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    width: 14.448vw;
+    width: 12.448vw;
     float: left;
     margin-top: 16.19vh;
-    margin-right: 0.4rem;
+    margin-right: 1.5rem;
 }
 
 .img-inflation-container > p > span {
@@ -479,6 +480,27 @@ body {
     font-size: 0.68rem;
     font-weight: bold;
 }
+
+.empty-inflation-bottom-border {
+    width: 5rem;
+    height: 0;
+    border-top: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.inflation-authors
+{
+    font-size: .875rem;
+    line-height: 18px;
+    line-height: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    color: black;
+    margin-bottom: 1rem;
+}
+
 /*video*/
 
 .video {
