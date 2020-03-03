@@ -812,6 +812,10 @@ ul li a:hover{
     text-decoration:underline;
     cursor: pointer;
 }
+.rubrics-side-bar{
+    border-left: 1px solid #e2e2e2;
+    padding-left: 15px;
+}
 
 /*-----------Navigation-bar-at-the-bottom----------*/
 
