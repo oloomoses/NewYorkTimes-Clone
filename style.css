@@ -181,10 +181,10 @@ body {
 /*main-title*/
 
 .main-title {
-    width: 24.521vw;
+    width: max-content;
     height: 10.7986vh;
     margin-bottom: 0.8vh;
-    margin-top: 0;
+    margin-top: 1vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -192,9 +192,9 @@ body {
 .main-title > span {
     margin: 0;
     padding: 0;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     font-style: italic;
-    font-weight: 500;
+    font-weight: 700;
     font-family:  nyt-cheltenham,georgia,'times new roman',times,serif;
 }
 
@@ -271,7 +271,7 @@ body {
     font-size: 0.8125rem;
     font-family:nyt-franklin, helvetica, arial, sans-serif;
     font-weight: 500;
-    color: rgb(153,153,153);
+    color: rgb(51,51,51);
 }
 
 .socialmedia-toolbar {
@@ -282,7 +282,30 @@ body {
     align-items: center;
 }
 
-.head-icon {
+.black-icon {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0.8rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+}
+
+.black-icon :hover {
+    background-color: white;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 50%;
+}
+
+
+.black-icon > a > img {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-top: 0.3rem;
+}
+
+.white-icon {
     width: 2rem;
     height: 2rem;
     margin-left: 0.8rem;
@@ -290,27 +313,10 @@ body {
     text-align: center;
 }
 
-.circle :hover {
-    background-color: white;
-    border: 2px solid rgb(238, 238, 238);
-    border-radius: 50%;
-}
-
-.circle {
-    background-color: rgb(238, 238, 238);
-    border-radius: 50%;
-}
-
-.head-icon > a > img {
-    width: 1.4rem;
-    height: 1.4rem;
-    margin-top: 0.3rem;
-}
-
-.white-icon {
-    width: 1.4rem;
-    height: 1.4rem;
-    margin-top: 0.3rem;
+.white-icon > a > img {
+    width: 1.9rem;
+    height: 1.9rem;
+    margin-top: 0.16rem;
 }
 
 /*--stories--*/
