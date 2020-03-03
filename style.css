@@ -357,6 +357,8 @@ body {
 .aside-edit-picks {
     width: 12vw;
     height: 36vh;
+    float: right !important;
+    align-self: right !important;
     display: grid;
     grid-template-rows: 3.03712vh 1fr 1fr 1fr;
 }
@@ -483,17 +485,20 @@ body {
     margin-right: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .image-story > a > img {
-    width: 70vw;
-    height: auto;
+    max-width: 70vw;
+    max-height: 54.1373264vh;
     margin-right: auto;
     margin-left: auto;
 }
 
 .image-story > p {
+    max-width: 48vw;
     font-size: 1rem;
     line-height: 1.25rem;
     color: rgb(102,102,102);
