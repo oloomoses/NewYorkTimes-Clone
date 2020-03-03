@@ -445,7 +445,8 @@ body {
     margin-left: auto;
     width:  55.4577vw;
     height: fit-content;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .inflation-top-caption {
@@ -475,14 +476,14 @@ body {
 
 .img-inflation-container > p {
     display: block;
-    font-size: 0.81rem;
+    font-size: 0.8rem;
     line-height: 1.0625rem;
     font-weight: 200;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     width: 12.455vw;
     float: left;
-    margin-top: 16.7vh;
+    margin-top: 17vh;
     margin-right: 1.5rem;
 }
 
