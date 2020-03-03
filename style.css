@@ -283,8 +283,8 @@ body {
 }
 
 .head-icon {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1.9rem;
+    height: 1.9rem;
     margin-left: 1rem;
     text-decoration: none;
     align-content: center;
@@ -296,10 +296,11 @@ body {
     border-radius: 50%;
 }
 
-.head-icon > a > i {
-    font-size: 1.3rem;
-    color: black;
-    font-weight: 400;
+.head-icon > a > img {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
 }
 
 .story {
