@@ -919,6 +919,11 @@ ul > li > a {
   margin-right: 15px;
 }
 
+ul > li > a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .icons-child > a:hover {
   text-decoration: underline;
 }
@@ -952,7 +957,3 @@ ul > li > a {
   text-decoration: none;
 }
 
-ul > li > a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
