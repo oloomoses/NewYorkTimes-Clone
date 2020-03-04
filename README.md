@@ -1,8 +1,13 @@
 # NewYorkTimes-Clone
-A [a New York times article webpage Clone](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0).
+
+## Description
+This Project is to create a clone of the New York Times web Page
+
 
 ## Built With
 - HTML & CSS
+- CSS grid
+- CSS flex box
 
 ## Usage
 ```Git
@@ -11,7 +16,6 @@ cd NewYorkTimes-Clone
 git checkout development
 firefox .
 ```
-
 ## Demo
 https://rawcdn.githack.com/
 
@@ -29,5 +33,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Support this project with a ⭐️ and let us now if you would like to become a contributor!
 
-## License
-[MIT]
