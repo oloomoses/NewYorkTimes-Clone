@@ -823,7 +823,8 @@ body {
     grid-template-rows: 44px auto 66px ;
     border-top: 3px double #e2e2e2;
     padding-top: 5px;
-    width:70vw;    
+    width:70vw;  
+    margin-bottom: 60px;  
 }
 
 .rubrics-logo {
@@ -938,7 +939,7 @@ body {
 }
 
 .rb-footer ul li a{
-    font-size:9px;
+    font-size:11px;
     text-align:center;
     color:#333;
 }
