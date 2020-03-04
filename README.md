@@ -13,7 +13,7 @@ firefox .
 ```
 
 ## Demo
-https://rawcdn.githack.com/
+https://oloomoses.github.io/NewYorkTimes-Clone/.
 
 ## Authors
 👩 **Houda Cherkaoui**
