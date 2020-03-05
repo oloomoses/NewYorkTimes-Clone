@@ -3,6 +3,8 @@
 ## Description
 This Project is to create a clone of the New York Times web Page
 
+![screenshot](images/Screenshot.jpg)
+
 
 ## Built With
 - HTML & CSS
