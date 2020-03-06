@@ -158,6 +158,11 @@ body {
   margin-right: auto;
 }
 
+a span {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
 .main-title > span {
   margin: 0;
   padding: 0;
@@ -842,6 +847,7 @@ body {
 
 .footer-container > footer {
   background-color: white;
+  border-top: 1px solid #e2e2e2;
   grid-row-start: 3;
   grid-row-end: 4;
 }
@@ -886,11 +892,6 @@ body {
   list-style: none;
 }
 
-a span {
-  padding-top: 20px;
-  font-weight: bold;
-}
-
 .newsletters {
   font-size: 11px !important;
   line-height: 21px !important;
@@ -911,15 +912,10 @@ a span {
 
 .empty-list {
   padding-top: 5px;
-  margin-bottom: 5px;;
+  margin-bottom: 5px;
   width: 100%;
   height: 0;
   border-bottom: solid 1px #e2e2e2;
-}
-
-footer {
-  border-top: 1px solid #e2e2e2;
-  align-items: center;
 }
 
 .footer-ul {
@@ -931,7 +927,7 @@ footer {
 .footer-ul .li {
   display: inline;
   margin-right: 20px;
-  font-size: 12px;  
+  font-size: 12px;
 }
 
 .footer-ul .li a {
@@ -982,12 +978,11 @@ footer {
   margin-right: 15px;
 }
 
-.ul > .li > a:hover, .footer-ul .li a:hover {
+.icons-child > a:hover {
   text-decoration: underline;
-  cursor: pointer;
 }
 
-.icons-child > a:hover {
+.recomendations-header a:hover {
   text-decoration: underline;
 }
 
@@ -1004,10 +999,6 @@ footer {
   transition: 0.3s;
 }
 
-.recomendations-header a:hover {
-  text-decoration: underline;
-}
-
 .popular-articles a:hover {
   color: #999;
 }
@@ -1018,4 +1009,10 @@ footer {
 
 .material-icons.md-24:hover {
   text-decoration: none;
+}
+
+.ul > .li > a:hover,
+.footer-ul .li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
