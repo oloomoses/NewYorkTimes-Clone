@@ -375,7 +375,7 @@ body {
   margin-top: 0.625rem;
 }
 
-.picks > img {
+.picks-images {
   width: 5rem;
   height: 5rem;
   float: left;
@@ -740,7 +740,7 @@ body {
   color: black;
 }
 
-.img-thumbnail img {
+.img-thumbnail-image {
   width: 100%;
   height: 10vw;
 }
@@ -752,7 +752,7 @@ body {
   text-align: right;
 }
 
-.img-thumbnail span {
+.span_img-thumbnail {
   font-size: 10px;
   color: #999;
   justify-content: flex-start;
@@ -869,12 +869,12 @@ body {
   margin: 0;
 }
 
-.subscribe li a {
+.subscribe-li a {
   display: flex;
   align-items: center;
 }
 
-.subscribe li a span {
+.subscribe-li a span {
   margin-left: 5px;
   font-weight: bold;
 }
@@ -884,13 +884,13 @@ body {
   text-decoration: none;
 }
 
-.rb-footer ul {
+.ul-rb-footer {
   border-top: 1px solid #ebebeb;
   margin-top: 10px;
   text-align: center;
 }
 
-.rb-footer ul li {
+.il-rb-footer {
   display: inline-block;
   margin-top: 15px;
   margin-right: 20px;
@@ -898,24 +898,12 @@ body {
   list-style: none;
 }
 
-.rb-footer ul li a {
-  font-size: 11px;
-  text-align: center;
-  color: #333;
-}
-
 .newsletters {
   font-size: 11px !important;
   line-height: 21px !important;
 }
 
-ul li {
-  list-style: none;
-  margin-top: 5px;
-  text-align: left;
-}
-
-ul > li > a {
+.il-rb-footer > a {
   text-decoration: none;
   color: #000;
   font-family: helvetica, arial, sans-serif;
