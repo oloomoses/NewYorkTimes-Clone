@@ -19,7 +19,7 @@ git checkout development
 firefox .
 ```
 ## Demo
-https://rawcdn.githack.com/
+https://rawcdn.githack.com/oloomoses/NewYorkTimes-Clone/f7b4f1444287a86ea06425c26946daeb141257bd/index.html
 
 ## Authors
 👩 **Houda Cherkaoui**
